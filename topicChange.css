@@ -1,0 +1,25 @@
+/* Base page style */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f8f9fa, #e0f7fa);
+}
+
+/* Customize the card beyond Bootstrap */
+.custom-card {
+    border-radius: 20px;
+    background: white;
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Customize the button beyond Bootstrap */
+.custom-btn {
+    background: linear-gradient(45deg, #4CAF50, #2e7d32);
+    border: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.custom-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
