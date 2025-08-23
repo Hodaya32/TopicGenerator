@@ -7,7 +7,7 @@ body {
 /* Customize the card beyond Bootstrap */
 .custom-card {
     border-radius: 20px;
-    background: white;
+    background: rgb(218, 149, 149);
     max-width: 500px;
     margin: auto;
 }
